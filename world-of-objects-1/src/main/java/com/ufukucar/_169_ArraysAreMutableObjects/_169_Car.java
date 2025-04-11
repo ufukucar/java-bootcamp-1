@@ -1,8 +1,6 @@
-package com.ufukucar._167_TheTaskDrive;
+package com.ufukucar._169_ArraysAreMutableObjects;
 
-import java.util.Arrays;
-
-public class _154_Car {
+public class _169_Car {
 
     private String make;
     private double price;
@@ -10,7 +8,7 @@ public class _154_Car {
     private String color;
     private String[] spareParts;
 
-    public _154_Car(String make, double price, int year, String color, String[] spareParts) {
+    public _169_Car(String make, double price, int year, String color, String[] spareParts) {
         this.make = make;
         this.price = price;
         this.year = year;
@@ -18,7 +16,7 @@ public class _154_Car {
         this.spareParts = spareParts;
     }
 
-    public _154_Car(_154_Car source) {
+    public _169_Car(_169_Car source) {
         this.make = source.make;
         this.price = source.price;
         this.year = source.year;

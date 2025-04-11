@@ -8,14 +8,14 @@ public class Person {
     int seatNumber;
 
 
-    public Person(String name, String nationality, String dateOfBirth,  int seatNumber) {
+    public Person(String name, String nationality, String dateOfBirth, int seatNumber) {
         this.name = name;
         this.nationality = nationality;
         this.dateOfBirth = dateOfBirth;
         this.seatNumber = seatNumber;
     }
 
-    public Person (Person source) {
+    public Person(Person source) {
 
         this.name = source.name;
         this.nationality = source.nationality;

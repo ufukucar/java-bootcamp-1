@@ -1,8 +1,8 @@
-package com.ufukucar._167_TheTaskDrive;
+package com.ufukucar._170_FixingTheConstructor;
 
 import java.util.Arrays;
 
-public class _154_Car {
+public class _170_Car {
 
     private String make;
     private double price;
@@ -10,15 +10,15 @@ public class _154_Car {
     private String color;
     private String[] spareParts;
 
-    public _154_Car(String make, double price, int year, String color, String[] spareParts) {
+    public _170_Car(String make, double price, int year, String color, String[] spareParts) {
         this.make = make;
         this.price = price;
         this.year = year;
         this.color = color;
-        this.spareParts = spareParts;
+        this.spareParts = Arrays.copyOf(spareParts, spareParts.length);
     }
 
-    public _154_Car(_154_Car source) {
+    public _170_Car(_170_Car source) {
         this.make = source.make;
         this.price = source.price;
         this.year = source.year;

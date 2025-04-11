@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/java-bootcamp-udemy.iml" filepath="$PROJECT_DIR$/.idea/java-bootcamp-udemy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/world-of-objects/world-of-objects.iml" filepath="$PROJECT_DIR$/world-of-objects/world-of-objects.iml" />
     </modules>
   </component>
 </project>

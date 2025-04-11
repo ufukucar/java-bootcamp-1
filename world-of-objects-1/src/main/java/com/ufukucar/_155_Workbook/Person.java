@@ -9,5 +9,4 @@ public class Person {
     int seatNumber;
 
 
-
 }

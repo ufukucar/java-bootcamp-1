@@ -19,7 +19,7 @@ public class Main {
         person.name = "Rayan Slim";
         person.nationality = "Canadian";
         person.dateOfBirth = "01/01/1111";
-        person.passport = new String [] {person.name, person.nationality, person.dateOfBirth} ;
+        person.passport = new String[]{person.name, person.nationality, person.dateOfBirth};
         person.seatNumber = 5;
 
         System.out.println(person.name);
@@ -27,7 +27,6 @@ public class Main {
         System.out.println(person.dateOfBirth);
         System.out.println(Arrays.toString(person.passport));
         System.out.println(person.seatNumber);
-
 
 
     }
