@@ -4,30 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6196772b-8bdf-43c6-a33e-46d96305eeed" name="Changes" comment="" />
+    <list default="true" id="6196772b-8bdf-43c6-a33e-46d96305eeed" name="Changes" comment="World of objects - 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_167_TheTaskDrive/_167_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_171_FixingTheCopyConstructor/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_171_FixingTheCopyConstructor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_172_FixingTheGetter/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_173_FixingTheSetter/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_173_FixingTheSetter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_175_toString/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_175_toString/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_177_CreatingADealarshipObject/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_177_CreatingADealarshipObject/DealerShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_177_CreatingADealarshipObject/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_178_FinalizingTheApplication/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_178_FinalizingTheApplication/DealerShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_178_FinalizingTheApplication/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_179_DeepCopying/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_179_DeepCopying/DealerShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_179_DeepCopying/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_180_Workbook/Airline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_180_Workbook/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_180_Workbook/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_181_Workbook/Airline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_181_Workbook/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_181_Workbook/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufukucar/_167_TheTaskDrive/_154_Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_167_TheTaskDrive/_167_Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufukucar/_167_TheTaskDrive/_154_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_172_FixingTheGetter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufukucar/_167_TheTaskDrive/_154_Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ufukucar/_167_TheTaskDrive/_154_Main.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ufukucar"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ufukucar&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/ufukucar/java-bootcamp-1.git",
-    "accountId": "94cd0c10-b4a7-4e9e-9da2-1b352f05ce0d"
+    "accountId": "1960df0b-e66a-4dbf-8fda-b5941a860b50"
   }
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2vYaQryTgAYFQHT2kpnPTMKGS9B" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,13 +75,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Debug",
     "Application._154_Main.executor": "Debug",
+    "Application.com.ufukucar.CreatingADealarshipObject.Main.executor": "Debug",
     "Application.com.ufukucar._169_ArraysAreMutableObjects._154_Main.executor": "Run",
+    "Application.com.ufukucar._172_FixingTheGetter.Main.executor": "Debug",
+    "Application.com.ufukucar._175_toString.Main.executor": "Run",
+    "Application.com.ufukucar._178_FinalizingTheApplication.Main.executor": "Run",
+    "Application.com.ufukucar._179_DeepCopying.Main.executor": "Debug",
+    "Application.com.ufukucar._181_Workbook.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/ufuk-ucar/EGITIM/java/2025/java-bootcamp-1/world-of-objects-1/src/main/java/com/ufukucar/_170_FixingTheConstructor",
+    "last_opened_file_path": "D:/EGITIM/java/2025/java-bootcamp-udemy/world-of-objects-1/src/main/java/com/ufukucar/_181_Workbook",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,20 +100,23 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ufuk-ucar\EGITIM\java\2025\java-bootcamp-1\world-of-objects-1\src\main\java\com\ufukucar\_170_FixingTheConstructor" />
-      <recent name="D:\ufuk-ucar\EGITIM\java\2025\java-bootcamp-1\world-of-objects-1\src\main\java\com\ufukucar\_169_ArraysAreMutableObjects" />
+      <recent name="D:\EGITIM\java\2025\java-bootcamp-udemy\world-of-objects-1\src\main\java\com\ufukucar\_181_Workbook" />
+      <recent name="D:\EGITIM\java\2025\java-bootcamp-udemy\world-of-objects-1\src\main\java\com\ufukucar\_179_DeepCopying" />
+      <recent name="D:\EGITIM\java\2025\java-bootcamp-udemy\world-of-objects-1\src\main\java\com\ufukucar\_178_FinalizingTheApplication" />
+      <recent name="D:\EGITIM\java\2025\java-bootcamp-udemy\world-of-objects-1\src\main\java\com\ufukucar\CreatingADealarshipObject" />
+      <recent name="D:\EGITIM\java\2025\java-bootcamp-udemy\world-of-objects-1\src\main\java\com\ufukucar\_175_toString" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ufukucar._169_ArraysAreMutableObjects" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._154_Main">
-    <configuration name="_154_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ufukucar._167_TheTaskDrive._154_Main" />
+  <component name="RunManager" selected="Application.com.ufukucar._181_Workbook.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ufukucar._180_Workbook.Main" />
       <module name="world-of-objects-1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ufukucar._167_TheTaskDrive.*" />
+          <option name="PATTERN" value="com.ufukucar._180_Workbook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +124,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_169_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ufukucar._169_ArraysAreMutableObjects._169_Main" />
+    <configuration name="com.ufukucar._177_CreatingADealarshipObject.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ufukucar._177_CreatingADealarshipObject.Main" />
       <module name="world-of-objects-1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ufukucar._169_ArraysAreMutableObjects.*" />
+          <option name="PATTERN" value="com.ufukucar._177_CreatingADealarshipObject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.ufukucar._178_FinalizingTheApplication.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ufukucar._178_FinalizingTheApplication.Main" />
+      <module name="world-of-objects-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ufukucar._178_FinalizingTheApplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.ufukucar._179_DeepCopying.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ufukucar._179_DeepCopying.Main" />
+      <module name="world-of-objects-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ufukucar._179_DeepCopying.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.ufukucar._181_Workbook.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ufukucar._181_Workbook.Main" />
+      <module name="world-of-objects-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ufukucar._181_Workbook.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,8 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._154_Main" />
-        <item itemvalue="Application._169_Main" />
+        <item itemvalue="Application.com.ufukucar._181_Workbook.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.com.ufukucar._179_DeepCopying.Main" />
+        <item itemvalue="Application.com.ufukucar._178_FinalizingTheApplication.Main" />
+        <item itemvalue="Application.com.ufukucar._177_CreatingADealarshipObject.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -114,21 +203,66 @@
       <option name="presentableId" value="Default" />
       <updated>1744324449703</updated>
       <workItem from="1744324450776" duration="4611000" />
+      <workItem from="1744497410953" duration="373000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="World of objects - 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="World of objects - 1" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/ufukucar/_167_TheTaskDrive/_154_Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/ufukucar/_171_FixingTheCopyConstructor/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ufukucar/_171_FixingTheCopyConstructor/Main.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ufukucar/_177_CreatingADealarshipObject/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ufukucar/_180_Workbook/Main.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ufukucar/_180_Workbook/Main.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ufukucar/_180_Workbook/Main.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ufukucar/_180_Workbook/Main.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ufukucar/_180_Workbook/Main.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="nissan2" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

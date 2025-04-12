@@ -1,17 +1,18 @@
-package com.ufukucar._167_TheTaskDrive;
+package com.ufukucar._171_FixingTheCopyConstructor;
 
 
-public class _154_Main {
+
+public class Main {
+
     public static void main(String[] args) {
-
         String [] spareParts = new String[] {"Tires", "Keys"};
 
-        _154_Car nissan = new _154_Car("Nissan", 10000, 2020, "Green", spareParts);
-        _154_Car dodge = new _154_Car("Dodge", 10000, 2020, "Dodge", spareParts);
+        Car nissan = new Car("Nissan", 10000, 2020, "Green", spareParts);
+        Car dodge = new Car("Dodge", 10000, 2020, "Dodge", spareParts);
 
         spareParts[0] = "Filter";
 
-        _154_Car nissan2 = new _154_Car(nissan);
+        Car nissan2 = new Car(nissan);
 
         nissan2.setColor("Yellow");
         nissan.setColor("Orange");
@@ -30,4 +31,6 @@ public class _154_Main {
 
 
     }
+
 }
+
