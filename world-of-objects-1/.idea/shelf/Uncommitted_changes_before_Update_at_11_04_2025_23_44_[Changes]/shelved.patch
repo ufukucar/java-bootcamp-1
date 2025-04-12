@@ -1,0 +1,21 @@
+Index: src/main/java/com/ufukucar/_167_TheTaskDrive/_154_Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.ufukucar._167_TheTaskDrive;\r\n\r\n\r\npublic class _154_Main {\r\n    public static void main(String[] args) {\r\n\r\n        _154_Car nissan = new _154_Car(\"Nissan\", 10000, 2020, \"Green\");\r\n\r\n        _154_Car nissan2 = new _154_Car(nissan);\r\n\r\n        nissan2.setColor(\"Yellow\");\r\n        nissan.setColor(\"Orange\");\r\n        nissan2.setColor(\"Blue\");\r\n        nissan.setColor(\"Purple\");\r\n        nissan2.setColor(\"Fuchsia\");\r\n        nissan.setColor(\"Beige\");\r\n\r\n        _154_Car dodge = new _154_Car(\"Dodge\", 10000, 2020, \"Dodge\");\r\n\r\n        System.out.println(\"This \" + nissan.getMake()   + \" is worth $\" + nissan.getPrice() +\r\n                \". It was built in \" + nissan.getYear() + \". It is \" + nissan.getColor() + \".\\n\");\r\n        System.out.println(\"This \" + dodge.getMake()    + \" is worth $\" + dodge.getPrice() +\r\n                \". It was built in \" + dodge.getYear()  + \". It is \" + dodge.getColor() + \".\\n\");\r\n\r\n\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/ufukucar/_167_TheTaskDrive/_154_Main.java b/src/main/java/com/ufukucar/_167_TheTaskDrive/_154_Main.java
+--- a/src/main/java/com/ufukucar/_167_TheTaskDrive/_154_Main.java	(revision e1f3fb75368d7990fef04a65ca364d6a8901c9ba)
++++ b/src/main/java/com/ufukucar/_167_TheTaskDrive/_154_Main.java	(date 1744324546585)
+@@ -17,8 +17,8 @@
+ 
+         _154_Car dodge = new _154_Car("Dodge", 10000, 2020, "Dodge");
+ 
+-        System.out.println("This " + nissan.getMake()   + " is worth $" + nissan.getPrice() +
+-                ". It was built in " + nissan.getYear() + ". It is " + nissan.getColor() + ".\n");
++        System.out.println("\nThis " + nissan.getMake()   + " is worth $" + nissan.getPrice() +
++                ". It was built in " + nissan.getYear() + ". It is " + nissan.getColor() + ".");
+         System.out.println("This " + dodge.getMake()    + " is worth $" + dodge.getPrice() +
+                 ". It was built in " + dodge.getYear()  + ". It is " + dodge.getColor() + ".\n");
+ 

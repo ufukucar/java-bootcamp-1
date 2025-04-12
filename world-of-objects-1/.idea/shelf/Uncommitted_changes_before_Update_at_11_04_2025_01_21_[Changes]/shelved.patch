@@ -1,0 +1,6 @@
+diff --git a/../world-of-objects/src/com/ufukucar/_154_/_154_Main.java b/src/main/java/com/ufukucar/_154_/_154_Main.java
+rename from ../world-of-objects/src/com/ufukucar/_154_/_154_Main.java
+rename to src/main/java/com/ufukucar/_154_/_154_Main.java
+diff --git a/../world-of-objects/src/com/ufukucar/_154_/_154_Car.java b/src/main/java/com/ufukucar/_154_/_154_Car.java
+rename from ../world-of-objects/src/com/ufukucar/_154_/_154_Car.java
+rename to src/main/java/com/ufukucar/_154_/_154_Car.java

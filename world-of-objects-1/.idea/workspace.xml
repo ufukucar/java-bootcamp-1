@@ -4,36 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6196772b-8bdf-43c6-a33e-46d96305eeed" name="Changes" comment="World of objects - 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_167_TheTaskDrive/_167_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_171_FixingTheCopyConstructor/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_171_FixingTheCopyConstructor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_172_FixingTheGetter/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_173_FixingTheSetter/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_173_FixingTheSetter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_175_toString/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_175_toString/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_177_CreatingADealarshipObject/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_177_CreatingADealarshipObject/DealerShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_177_CreatingADealarshipObject/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_178_FinalizingTheApplication/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_178_FinalizingTheApplication/DealerShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_178_FinalizingTheApplication/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_179_DeepCopying/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_179_DeepCopying/DealerShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_179_DeepCopying/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_180_Workbook/Airline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_180_Workbook/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_180_Workbook/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_181_Workbook/Airline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_181_Workbook/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_181_Workbook/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufukucar/_167_TheTaskDrive/_154_Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_167_TheTaskDrive/_167_Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ufukucar/_167_TheTaskDrive/_154_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ufukucar/_172_FixingTheGetter/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ufukucar/_167_TheTaskDrive/_154_Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ufukucar/_167_TheTaskDrive/_154_Main.class" beforeDir="false" />
-    </list>
+    <list default="true" id="6196772b-8bdf-43c6-a33e-46d96305eeed" name="Changes" comment="World of objects - 1 bitti" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -203,16 +174,37 @@
       <option name="presentableId" value="Default" />
       <updated>1744324449703</updated>
       <workItem from="1744324450776" duration="4611000" />
-      <workItem from="1744497410953" duration="373000" />
+      <workItem from="1744497410953" duration="608000" />
     </task>
+    <task id="LOCAL-00001" summary="World of objects - 1 bitti">
+      <option name="closed" value="true" />
+      <created>1744497831830</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744497831830</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="World of objects - 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="World of objects - 1" />
+    <MESSAGE value="World of objects - 1 bitti" />
+    <option name="LAST_COMMIT_MESSAGE" value="World of objects - 1 bitti" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
