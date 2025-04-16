@@ -1,0 +1,491 @@
+Index: world-of-objects/world-of-objects.iml
+===================================================================
+diff --git a/world-of-objects/world-of-objects.iml b/world-of-objects/world-of-objects.iml
+deleted file mode 100644
+--- a/world-of-objects/world-of-objects.iml	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
++++ /dev/null	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
+@@ -1,11 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="JAVA_MODULE" version="4">
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+-    <exclude-output />
+-    <content url="file://$MODULE_DIR$">
+-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+-    </content>
+-    <orderEntry type="jdk" jdkName="openjdk-23" jdkType="JavaSDK" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: world-of-objects/src/com/ufukucar/_155_Workbook/Main.java
+===================================================================
+diff --git a/world-of-objects/src/com/ufukucar/_155_Workbook/Main.java b/world-of-objects/src/com/ufukucar/_155_Workbook/Main.java
+deleted file mode 100644
+--- a/world-of-objects/src/com/ufukucar/_155_Workbook/Main.java	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
++++ /dev/null	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
+@@ -1,36 +0,0 @@
+-package com.ufukucar._155_Workbook;
+-
+-import java.util.Arrays;
+-
+-public class Main {
+-
+-    public static void main(String[] args) {
+-
+-        Person person = new Person();
+-
+-        System.out.println(person.name);
+-        System.out.println(person.nationality);
+-        System.out.println(person.dateOfBirth);
+-        System.out.println(Arrays.toString(person.passport));
+-        System.out.println(person.seatNumber);
+-
+-        System.out.println("************************************");
+-
+-        person.name = "Rayan Slim";
+-        person.nationality = "Canadian";
+-        person.dateOfBirth = "01/01/1111";
+-        person.passport = new String [] {person.name, person.nationality, person.dateOfBirth} ;
+-        person.seatNumber = 5;
+-
+-        System.out.println(person.name);
+-        System.out.println(person.nationality);
+-        System.out.println(person.dateOfBirth);
+-        System.out.println(Arrays.toString(person.passport));
+-        System.out.println(person.seatNumber);
+-
+-
+-
+-    }
+-
+-
+-}
+Index: world-of-objects/src/com/ufukucar/_155_Workbook/Person.java
+===================================================================
+diff --git a/world-of-objects/src/com/ufukucar/_155_Workbook/Person.java b/world-of-objects/src/com/ufukucar/_155_Workbook/Person.java
+deleted file mode 100644
+--- a/world-of-objects/src/com/ufukucar/_155_Workbook/Person.java	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
++++ /dev/null	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
+@@ -1,13 +0,0 @@
+-package com.ufukucar._155_Workbook;
+-
+-public class Person {
+-
+-    String name;
+-    String nationality;
+-    String dateOfBirth;
+-    String[] passport;
+-    int seatNumber;
+-
+-
+-
+-}
+Index: world-of-objects/src/com/ufukucar/_158_Workbook/Person.java
+===================================================================
+diff --git a/world-of-objects/src/com/ufukucar/_158_Workbook/Person.java b/world-of-objects/src/com/ufukucar/_158_Workbook/Person.java
+deleted file mode 100644
+--- a/world-of-objects/src/com/ufukucar/_158_Workbook/Person.java	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
++++ /dev/null	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
+@@ -1,19 +0,0 @@
+-package com.ufukucar._158_Workbook;
+-
+-public class Person {
+-
+-    String name;
+-    String nationality;
+-    String dateOfBirth;
+-    String[] passport;
+-    int seatNumber;
+-
+-
+-    public Person(String name, String nationality, String dateOfBirth, String[] passport, int seatNumber) {
+-        this.name = name;
+-        this.nationality = nationality;
+-        this.dateOfBirth = dateOfBirth;
+-        this.passport = passport;
+-        this.seatNumber = seatNumber;
+-    }
+-}
+Index: world-of-objects/src/com/ufukucar/_167_TheTaskDrive/_154_Car.java
+===================================================================
+diff --git a/world-of-objects/src/com/ufukucar/_167_TheTaskDrive/_154_Car.java b/world-of-objects/src/com/ufukucar/_167_TheTaskDrive/_154_Car.java
+deleted file mode 100644
+--- a/world-of-objects/src/com/ufukucar/_167_TheTaskDrive/_154_Car.java	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
++++ /dev/null	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
+@@ -1,61 +0,0 @@
+-package com.ufukucar._167_TheTaskDrive;
+-
+-public class _154_Car {
+-
+-    private String make;
+-    private double price;
+-    private int year;
+-    private String color;
+-
+-    public _154_Car(String make, double price, int year, String color) {
+-        this.make = make;
+-        this.price = price;
+-        this.year = year;
+-        this.color = color;
+-    }
+-
+-    public _154_Car ( _154_Car source ) {
+-        this.make = source.make;
+-        this.price = source.price;
+-        this.year = source.year;
+-        this.color = source.color;
+-
+-    }
+-
+-    public String getMake() {
+-        return make;
+-    }
+-
+-    public double getPrice() {
+-        return price;
+-    }
+-
+-    public int getYear() {
+-        return year;
+-    }
+-
+-    public String getColor() {
+-        return color;
+-    }
+-
+-    public void setMake(String make) {
+-        this.make = make;
+-    }
+-
+-    public void setPrice(double price) {
+-        this.price = price;
+-    }
+-
+-    public void setYear(int year) {
+-        this.year = year;
+-    }
+-
+-    public void setColor(String color) {
+-        this.color = color;
+-    }
+-
+-    public void drive() {
+-        System.out.println("\n You bought the beautiful " + this.year + " " + this.color + " " + this.make + " " + this.price + "." );
+-        System.out.println("Please drive your car to the nearest exit . \n");
+-    }
+-}
+Index: world-of-objects/src/com/ufukucar/_166_Workbook/Main.java
+===================================================================
+diff --git a/world-of-objects/src/com/ufukucar/_166_Workbook/Main.java b/world-of-objects/src/com/ufukucar/_166_Workbook/Main.java
+deleted file mode 100644
+--- a/world-of-objects/src/com/ufukucar/_166_Workbook/Main.java	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
++++ /dev/null	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
+@@ -1,27 +0,0 @@
+-package com.ufukucar._166_Workbook;
+-
+-public class Main {
+-
+-    public static void main(String[] args) {
+-
+-        System.out.println("************************************");
+-
+-        Person person = new Person("Rayan Slim","Canadian", "01/01/1111", 5 );
+-
+-        Person twin = new Person(person);
+-        twin.setName("Jad Slim");
+-        twin.setSeatNumber(3);
+-
+-        System.out.println("Name: " + person.name+ "\n" + "Nationality: "
+-                + person.nationality + "\n" + "Date of Birth: " + person.dateOfBirth +
+-                "\n" + "Seat Number: " + person.seatNumber + "\n");
+-
+-        System.out.println("Name: " + twin.getName() + "\n" +
+-                "Nationality: " + twin.getNationality() + "\n" +
+-                "Date of Birth: " + twin.getDateOfBirth() + "\n" +
+-                "Seat Number: " + twin.getSeatNumber() + "\n");
+-
+-    }
+-
+-
+-}
+Index: world-of-objects/src/com/ufukucar/_167_TheTaskDrive/_154_Main.java
+===================================================================
+diff --git a/world-of-objects/src/com/ufukucar/_167_TheTaskDrive/_154_Main.java b/world-of-objects/src/com/ufukucar/_167_TheTaskDrive/_154_Main.java
+deleted file mode 100644
+--- a/world-of-objects/src/com/ufukucar/_167_TheTaskDrive/_154_Main.java	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
++++ /dev/null	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
+@@ -1,27 +0,0 @@
+-package com.ufukucar._167_TheTaskDrive;
+-
+-
+-public class _154_Main {
+-    public static void main(String[] args) {
+-
+-        _154_Car nissan = new _154_Car("Nissan", 10000, 2020, "Green");
+-
+-        _154_Car nissan2 = new _154_Car(nissan);
+-
+-        nissan2.setColor("Yellow");
+-        nissan.setColor("Orange");
+-        nissan2.setColor("Blue");
+-        nissan.setColor("Purple");
+-        nissan2.setColor("Fuchsia");
+-        nissan.setColor("Beige");
+-
+-        _154_Car dodge = new _154_Car("Dodge", 10000, 2020, "Dodge");
+-
+-        System.out.println("This " + nissan.getMake()   + " is worth $" + nissan.getPrice() +
+-                ". It was built in " + nissan.getYear() + ". It is " + nissan.getColor() + ".\n");
+-        System.out.println("This " + dodge.getMake()    + " is worth $" + dodge.getPrice() +
+-                ". It was built in " + dodge.getYear()  + ". It is " + dodge.getColor() + ".\n");
+-
+-
+-    }
+-}
+\ No newline at end of file
+Index: world-of-objects/src/com/ufukucar/_166_Workbook/Person.java
+===================================================================
+diff --git a/world-of-objects/src/com/ufukucar/_166_Workbook/Person.java b/world-of-objects/src/com/ufukucar/_166_Workbook/Person.java
+deleted file mode 100644
+--- a/world-of-objects/src/com/ufukucar/_166_Workbook/Person.java	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
++++ /dev/null	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
+@@ -1,59 +0,0 @@
+-package com.ufukucar._166_Workbook;
+-
+-public class Person {
+-
+-    String name;
+-    String nationality;
+-    String dateOfBirth;
+-    int seatNumber;
+-
+-
+-    public Person(String name, String nationality, String dateOfBirth,  int seatNumber) {
+-        this.name = name;
+-        this.nationality = nationality;
+-        this.dateOfBirth = dateOfBirth;
+-        this.seatNumber = seatNumber;
+-    }
+-
+-    public Person (Person source) {
+-
+-        this.name = source.name;
+-        this.nationality = source.nationality;
+-        this.dateOfBirth = source.dateOfBirth;
+-        this.seatNumber = source.seatNumber;
+-
+-    }
+-
+-
+-    public String getName() {
+-        return name;
+-    }
+-
+-    public void setName(String name) {
+-        this.name = name;
+-    }
+-
+-    public String getNationality() {
+-        return nationality;
+-    }
+-
+-    public void setNationality(String nationality) {
+-        this.nationality = nationality;
+-    }
+-
+-    public String getDateOfBirth() {
+-        return dateOfBirth;
+-    }
+-
+-    public void setDateOfBirth(String dateOfBirth) {
+-        this.dateOfBirth = dateOfBirth;
+-    }
+-
+-    public int getSeatNumber() {
+-        return seatNumber;
+-    }
+-
+-    public void setSeatNumber(int seatNumber) {
+-        this.seatNumber = seatNumber;
+-    }
+-}
+Index: world-of-objects/src/com/ufukucar/_165_CopyConstructor/_154_Car.java
+===================================================================
+diff --git a/world-of-objects/src/com/ufukucar/_165_CopyConstructor/_154_Car.java b/world-of-objects/src/com/ufukucar/_165_CopyConstructor/_154_Car.java
+deleted file mode 100644
+--- a/world-of-objects/src/com/ufukucar/_165_CopyConstructor/_154_Car.java	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
++++ /dev/null	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
+@@ -1,56 +0,0 @@
+-package com.ufukucar._165_CopyConstructor;
+-
+-public class _154_Car {
+-
+-    private String make;
+-    private double price;
+-    private int year;
+-    private String color;
+-
+-    public _154_Car(String make, double price, int year, String color) {
+-        this.make = make;
+-        this.price = price;
+-        this.year = year;
+-        this.color = color;
+-    }
+-
+-    public _154_Car ( _154_Car source ) {
+-        this.make = source.make;
+-        this.price = source.price;
+-        this.year = source.year;
+-        this.color = source.color;
+-
+-    }
+-
+-    public String getMake() {
+-        return make;
+-    }
+-
+-    public double getPrice() {
+-        return price;
+-    }
+-
+-    public int getYear() {
+-        return year;
+-    }
+-
+-    public String getColor() {
+-        return color;
+-    }
+-
+-    public void setMake(String make) {
+-        this.make = make;
+-    }
+-
+-    public void setPrice(double price) {
+-        this.price = price;
+-    }
+-
+-    public void setYear(int year) {
+-        this.year = year;
+-    }
+-
+-    public void setColor(String color) {
+-        this.color = color;
+-    }
+-}
+Index: world-of-objects/src/com/ufukucar/_158_Workbook/Main.java
+===================================================================
+diff --git a/world-of-objects/src/com/ufukucar/_158_Workbook/Main.java b/world-of-objects/src/com/ufukucar/_158_Workbook/Main.java
+deleted file mode 100644
+--- a/world-of-objects/src/com/ufukucar/_158_Workbook/Main.java	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
++++ /dev/null	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
+@@ -1,20 +0,0 @@
+-package com.ufukucar._158_Workbook;
+-
+-import java.util.Arrays;
+-
+-public class Main {
+-
+-    public static void main(String[] args) {
+-
+-        System.out.println("************************************");
+-
+-        Person person = new Person("Rayan Slim","Canadian", "01/01/1111", new String [] {"Rayan Slim", "Canadian", "01/01/1111"},  5 );
+-
+-        System.out.println("Name: " + person.name+ "\n" + "Nationality: "
+-                + person.nationality + "\n" + "Date of Birth: " + person.dateOfBirth +
+-                "\n" + "Seat Number: " + person.seatNumber + "\n");
+-
+-    }
+-
+-
+-}
+Index: world-of-objects/src/com/ufukucar/_165_CopyConstructor/_154_Main.java
+===================================================================
+diff --git a/world-of-objects/src/com/ufukucar/_165_CopyConstructor/_154_Main.java b/world-of-objects/src/com/ufukucar/_165_CopyConstructor/_154_Main.java
+deleted file mode 100644
+--- a/world-of-objects/src/com/ufukucar/_165_CopyConstructor/_154_Main.java	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
++++ /dev/null	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
+@@ -1,28 +0,0 @@
+-package com.ufukucar._165_CopyConstructor;
+-
+-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+-public class _154_Main {
+-    public static void main(String[] args) {
+-
+-        _154_Car nissan = new _154_Car("Nissan", 10000, 2020, "Green");
+-
+-        _154_Car nissan2 = new _154_Car(nissan);
+-
+-        nissan2.setColor("Yellow");
+-        nissan.setColor("Orange");
+-        nissan2.setColor("Blue");
+-        nissan.setColor("Purple");
+-        nissan2.setColor("Fuchsia");
+-        nissan.setColor("Beige");
+-
+-        _154_Car dodge = new _154_Car("Dodge", 10000, 2020, "Dodge");
+-
+-        System.out.println("This " + nissan.getMake()   + " is worth $" + nissan.getPrice() +
+-                ". It was built in " + nissan.getYear() + ". It is " + nissan.getColor() + ".\n");
+-        System.out.println("This " + dodge.getMake()    + " is worth $" + dodge.getPrice() +
+-                ". It was built in " + dodge.getYear()  + ". It is " + dodge.getColor() + ".\n");
+-
+-
+-    }
+-}
+\ No newline at end of file
+Index: world-of-objects/src/com/ufukucar/_154_/_154_Main.java
+===================================================================
+diff --git a/world-of-objects/src/com/ufukucar/_154_/_154_Main.java b/world-of-objects/src/com/ufukucar/_154_/_154_Main.java
+deleted file mode 100644
+--- a/world-of-objects/src/com/ufukucar/_154_/_154_Main.java	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
++++ /dev/null	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
+@@ -1,28 +0,0 @@
+-package com.ufukucar._154_;
+-
+-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+-public class _154_Main {
+-    public static void main(String[] args) {
+-
+-        _154_Car nissan = new _154_Car();
+-
+-        nissan.make = "Nissan";
+-        nissan.price = 10000;
+-        nissan.year = 2020;
+-        nissan.color = "Green";
+-
+-        _154_Car dodge = new _154_Car();
+-
+-        dodge.make = "Dodge";
+-        dodge.price = 11000;
+-        dodge.year = 2019;
+-        dodge.color = "Blue";
+-
+-        System.out.println("This " + nissan.make + " is worth $" + nissan.price +
+-                ". It was built in " + nissan.year + ". It is " + nissan.color + ".\n");
+-        System.out.println("This " + dodge.make + " is worth $" + dodge.price +
+-                ". It was built in " + dodge.year + ". It is " + dodge.color + ".\n");
+-
+-    }
+-}
+\ No newline at end of file
+Index: world-of-objects/src/com/ufukucar/_154_/_154_Car.java
+===================================================================
+diff --git a/world-of-objects/src/com/ufukucar/_154_/_154_Car.java b/world-of-objects/src/com/ufukucar/_154_/_154_Car.java
+deleted file mode 100644
+--- a/world-of-objects/src/com/ufukucar/_154_/_154_Car.java	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
++++ /dev/null	(revision c6375920e3e9e9534780819f6d892c2f1282ad34)
+@@ -1,11 +0,0 @@
+-package com.ufukucar._154_;
+-
+-public class _154_Car {
+-
+-    String make;
+-    double price;
+-    int year;
+-    String color;
+-
+-
+-}
