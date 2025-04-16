@@ -1,7 +1,10 @@
 package com.ufukucar;
 
-public class Main {
+public class _231_HashMap {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+
+        
+
+
     }
 }
