@@ -4,8 +4,11 @@ public class User {
 
     private String firstName;
     private String lastName;
+    //public static int usercount = 0; // public olmamalı
+    private static int usercount = 0; // public olmamalı
 
     public User(String firstName, String lastName) {
+        usercount++;
         this.firstName = firstName;
         this.lastName = lastName;
     }
@@ -26,4 +29,7 @@ public class User {
         this.lastName = lastName;
     }
 
+    public static int getUserCount() {
+        return usercount;
+    }
 }
