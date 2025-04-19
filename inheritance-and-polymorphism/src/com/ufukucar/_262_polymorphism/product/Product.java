@@ -1,4 +1,4 @@
-package com.ufukucar.inheritance.product;
+package com.ufukucar._262_polymorphism.product;
 
 public class Product {
 

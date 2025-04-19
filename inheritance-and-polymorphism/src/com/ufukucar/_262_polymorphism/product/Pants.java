@@ -1,6 +1,6 @@
-package com.ufukucar.inheritance.product;
+package com.ufukucar._262_polymorphism.product;
 
-public class Pants extends Product{
+public class Pants extends Product {
 
     private int waist;
     private int length;

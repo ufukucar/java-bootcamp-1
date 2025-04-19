@@ -1,9 +1,9 @@
-package com.ufukucar.inheritance;
+package com.ufukucar._260_inheritance;
 
-import com.ufukucar.inheritance.product.Pants;
-import com.ufukucar.inheritance.product.Shirt.Size;
+import com.ufukucar._260_inheritance.product.Pants;
+import com.ufukucar._260_inheritance.product.Shirt.Size;
 
-import com.ufukucar.inheritance.product.Shirt;
+import com.ufukucar._260_inheritance.product.Shirt;
 
 public class Main {
     public static void main(String[] args) {

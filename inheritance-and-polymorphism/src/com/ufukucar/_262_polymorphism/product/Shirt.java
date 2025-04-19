@@ -1,6 +1,6 @@
-package com.ufukucar.inheritance.product;
+package com.ufukucar._262_polymorphism.product;
 
-public class Shirt extends Product{
+public class Shirt extends Product {
 
 
     private Size size;
