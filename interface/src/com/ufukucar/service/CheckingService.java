@@ -4,9 +4,26 @@ import com.ufukucar.pojo.Account;
 import com.ufukucar.pojo.Checking;
 import com.ufukucar.repository.AccountRepository;
 
-public class CheckingService {
+import java.math.BigDecimal;
+
+public class CheckingService implements AccountService {
 
     AccountRepository accountRepository;
+
+
+    @Override
+    public void deposit(String id, BigDecimal amount) {
+        Checking account = (Checking) retrieveAccount(id);
+        account.setBalance(account.getBalance().add(amount));
+        updateAccount(account);
+    }
+
+    @Override
+    public void withdraw(String id, BigDecimal amount) {
+        Checking account = (Checking) retrieveAccount(id);
+        account.setBalance(account.getBalance().subtract(amount));
+        updateAccount(account);
+    }
 
 
     public CheckingService(AccountRepository accountRepository) {
@@ -31,9 +48,6 @@ public class CheckingService {
 
         this.accountRepository.deleteAccount(id);
     }
-
-
-
 
 
 }
