@@ -17,7 +17,7 @@ import com.ufukucar.service.CreditService;
 
 public class Main {
 
-    static Path[] paths = new Path[] {Paths.get("data/accounts.txt"), Paths.get("data/transactions.txt")};
+    static Path[] paths = new Path[] {Paths.get("src/com/ufukucar/_301_Final_Project/data/accounts.txt"), Paths.get("src/com/ufukucar/_301_Final_Project/data/transactions.txt")};
     static AccountRepository accountRepository = new AccountRepository();
     static CheckingService checkingService = new CheckingService(accountRepository);
     static CreditService creditService = new CreditService(accountRepository);
@@ -60,11 +60,11 @@ public class Main {
     }
 
     public static void finalTest() throws IOException {
-        System.out.println("Account A1234B Balance: " + checkingService.retrieveAccount("A1234B").getBalance());
-        System.out.println("Account E3456F Balance: " + checkingService.retrieveAccount("E3456F").getBalance());
-        System.out.println("Account I5678J Balance: " + checkingService.retrieveAccount("I5678J").getBalance());
-        System.out.println("Account C2345D Credit: " + creditService.retrieveAccount("C2345D").getCredit());
-        System.out.println("Account G4567H Credit: " + creditService.retrieveAccount("G4567H").getCredit());
+        System.out.println("Account A1234B Balance: " + ((Checking) checkingService.retrieveAccount("A1234B")).getBalance());
+        System.out.println("Account E3456F Balance: " + ((Checking) checkingService.retrieveAccount("E3456F")).getBalance());
+        System.out.println("Account I5678J Balance: " + ((Checking) checkingService.retrieveAccount("I5678J")).getBalance());
+        System.out.println("Account C2345D Credit: " + ((Credit) creditService.retrieveAccount("C2345D")).getCredit());
+        System.out.println("Account G4567H Credit: " + ((Credit) creditService.retrieveAccount("G4567H")).getCredit());
     }
 
 }
